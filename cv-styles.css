@@ -1,0 +1,16 @@
+.main-header {
+    justify-content: center;
+    text-align: center;
+    padding: 5px, 5px, 5px, 5px;
+}
+.main-header-container {
+    border: 5px 5px 5px 5px;
+    border-style: solid;
+    box-shadow: 2px 2px 2px 2px;
+    max-width: fit-content;
+    border-color: blueviolet;
+    box-sizing: content-box;
+}
+.placeholder-rat {
+    width: 50px
+}

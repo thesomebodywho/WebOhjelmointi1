@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Contact me!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <menu class="navigation-menu">
+        <li class="nav-item"><a href="index.cv">Index</a></li>
+        <li class="nav-item"><a href="cv.html">CV</a></li>
+        <li class="nav-item"><a href="hobbies.html">Hobbies</a></li>
+        <li class="nav-item">Contact</li>
+    </menu>
+    <h1>Contact me!</h1>
+    <p>Fill out this form to contact me. I'll answer you ASAP.</p>
+    <form action="">
+        <label for="fname">First name</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="lname">Age</label><br>
+        <input type="number" id="age" name="age" min="0"><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message</label><br>
+        <textarea name="message" id="message" rows="10" cols="75"></textarea>
+        <p>Where did you find out about my page?</p>
+        <input type="radio" name="heard-where" id="google">
+        <label for="google">Google</label><br>
+        <input type="radio" name="heard-where" id="linkedin">
+        <label for="google">LinkedIn</label><br>
+        <input type="radio" name="heard-where" id="friend">
+        <label for="google">From a friend</label><br>
+        <input type="radio" name="heard-where" id="other">
+        <label for="google">Other</label><br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <a href="index.html" class="index-link">Back to index!</a>
+</body>

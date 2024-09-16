@@ -1,0 +1,46 @@
+.asterisk {
+    max-width: 300px
+}
+.navigation-menu {
+    float: right;
+    margin-right: 30px;
+}
+.nav-item {
+    direction: rtl;
+    text-align: right;
+}
+th {
+    text-align: center;
+}
+.languages {
+    font-family:"Calibri", sans-serif;
+}
+.index-link {
+    float:right
+}
+.cv-content {
+    max-width: 40vw;
+}
+.cv-image {
+    max-width: 50vw;
+    max-height: 30vh;
+}
+#main-header {
+    justify-content: center;
+    text-align: center;
+    padding: 10px, 10px, 10px, 10px;
+    margin: 10px, 10px, 10px, 10px;
+}
+#main-header-container {
+    border: 5px 5px 5px 5px;
+    border-style: solid;
+    box-shadow: 2px 2px 2px 2px;
+    max-width: 40%;
+    border-color: blueviolet;
+    border-spacing: 5px;
+    box-sizing: border-box;
+    padding: 5px, 5px, 5px, 5px;
+}
+#index-link {
+    float: right
+}

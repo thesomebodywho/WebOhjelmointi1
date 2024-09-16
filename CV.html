@@ -3,25 +3,65 @@
 
 <head>
     <title>CV Joonatan Nyquist</title>
-    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
 <body>
+    <menu class="navigation-menu">
+        <li class="nav-item"><a href="index.cv">Index</a></li>
+        <li class="nav-item">CV</li>
+        <li class="nav-item"><a href="hobbies.html">Hobbies</a></li>
+        <li class="nav-item"><a href="contact.html">Contact</a></li>
+    </menu>
     <script src="scripts.js"></script>
+    <h1>CV Joonatan Nyquist</h1>
     <h2>Education</h2>
     <dl>
-        <dt>Basic education</dt>
-        <dd>Kymentaan koulu & Kausalan yläkoulu</dd>
         <dt>Upper secondary education</dt>
-        <dd>Iitin Lukio</dd>
+        <dd><a href="https://peda.net/iitti/lukio">Iitin Lukio</a></dd>
         <dt>Bachelor's Degree in Mathematics</dt>
-        <dd>University of Eastern Finland (Ongoing)</dd>
+        <dd> <a href="https://www.uef.fi/fi">University of Eastern Finland (Ongoing)</a></dd>
     </dl>
+    <h2 class="languages">Language skills</h2>
+    <table class="languages" id="languages-table">
+        <tr>
+            <th>Language</th>
+            <th>Reading</th>
+            <th>Writing</th>
+            <th>Listening</th>
+            <th>Speaking</th>
+            <th>Overall</th>
+        </tr>
+        <tr>
+            <td>Finnish</td>
+            <td>Native</td>
+            <td>Native</td>
+            <td>Native</td>
+            <td>Native</td>
+            <td>Native</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>C2</td>
+            <td>C2</td>
+            <td>C2</td>
+            <td>C2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>Swedish</td>
+            <td>B2</td>
+            <td>B2</td>
+            <td>B2</td>
+            <td>B2</td>
+            <td>B2</td>
+        </tr>
+    </table>
     <h2>My skills</h2>
     <ul>
-        <li><strong>Languages</strong></li>
+        <li>Mathematics</li>
+        <li><strong>Programming Languages</strong></li>
         <ul>
-            <li>Mathematics</li>
             <li>C#</li>
             <li>Java</li>
             <li>Python</li>
@@ -45,9 +85,7 @@
             <li>FRENDS</li>
         </ul>
     </ul>
-    <h2>Cool progress bar</h2>
-    <progress id="cool-progress-bar" value="69" max="100">69 %</progress>
-    <div id="index-link"><a href="index.html">index</a></div>
+    <a href="index.html" class="index-link">Back to index!</a>
 </body>
 
 </html>
